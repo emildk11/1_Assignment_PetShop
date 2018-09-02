@@ -9,19 +9,19 @@ namespace PetShop.Infrastructure.Static.Data
     {
         public static IEnumerable<Pet> Pets;
 
-        public void iniData()
+        public static void iniData()
         {
             Pet Pet1 = new Pet()
 
             {
                 ID = 01,
-                name = "peter",
-                type = "rabbit",
+                Name = "peter",
+                Type = "rabbit",
                 BirthDate = DateTime.Parse("31/08/1996"),
                 SoldDate = DateTime.Parse("31/08/2016"),
-                color = "White",
-                previousOwner = "none",
-                price = 600,
+                Color = "White",
+                PreviousOwner = "none",
+                Price = 600,
 
             };
 
@@ -30,13 +30,13 @@ namespace PetShop.Infrastructure.Static.Data
 
             {
                 ID = 02,
-                name = "Pikachu",
-                type = "Pikachu",
+                Name = "Pikachu",
+                Type = "Pikachu",
                 BirthDate = DateTime.Parse("31/08/1996"),
                 SoldDate = DateTime.Parse("31/08/2016"),
-                color = "Yellow",
-                previousOwner = "none",
-                price = 1000,
+                Color = "Yellow",
+                PreviousOwner = "none",
+                Price = 1000,
 
             };
 
@@ -44,13 +44,13 @@ namespace PetShop.Infrastructure.Static.Data
 
             {
                 ID = 03,
-                name = "marin",
-                type = "Troll",
+                Name = "marin",
+                Type = "Troll",
                 BirthDate = DateTime.Parse("31/08/1996"),
                 SoldDate = DateTime.Parse("31/08/2016"),
-                color = "LiquidShitBrown",
-                previousOwner = "His Mom",
-                price = 1,
+                Color = "LiquidShitBrown",
+                PreviousOwner = "His Mom",
+                Price = 1,
 
             };
 
@@ -58,13 +58,13 @@ namespace PetShop.Infrastructure.Static.Data
 
             {
                 ID = 04,
-                name = "goaty",
-                type = "goat",
+                Name = "goaty",
+                Type = "goat",
                 BirthDate = DateTime.Parse("31/08/1996"),
                 SoldDate = DateTime.Parse("31/08/2016"),
-                color = "Grey",
-                previousOwner = "none",
-                price = 5000,
+                Color = "Grey",
+                PreviousOwner = "none",
+                Price = 5000,
 
             };
 
@@ -72,13 +72,13 @@ namespace PetShop.Infrastructure.Static.Data
 
             {
                 ID = 05,
-                name = "Daniel",
-                type = "Horse",
+                Name = "Daniel",
+                Type = "Horse",
                 BirthDate = DateTime.Parse("31/08/1996"),
                 SoldDate = DateTime.Parse("31/08/2016"),
-                color = "Orange with white stripes",
-                previousOwner = "none",
-                price = 60000,
+                Color = "Orange with white stripes",
+                PreviousOwner = "none",
+                Price = 60000,
 
             };
             Pets = new List<Pet> { Pet1, Pet2, Pet3, Pet4, Pet5, };

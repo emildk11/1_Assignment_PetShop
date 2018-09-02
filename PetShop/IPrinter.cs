@@ -8,7 +8,7 @@ namespace PetShop
     {
         void StartUI();
 
-        void printAllPets();
+        
 
     }
 }

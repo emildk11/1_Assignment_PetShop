@@ -7,12 +7,12 @@ namespace PetShop.Core.Entity
     public class Pet
     {
         public int ID { get; set; }
-        public string name { get; set; }
-        public string type { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
         public DateTime BirthDate { get; set; }
         public DateTime SoldDate { get; set; }
-        public string color { get; set; }
-        public string previousOwner { get; set; }
-        public double price { get; set; }
+        public string Color { get; set; }
+        public string PreviousOwner { get; set; }
+        public double Price { get; set; }
     }
 }
