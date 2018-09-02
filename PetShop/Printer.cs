@@ -1,4 +1,5 @@
-﻿using PetShop.Core.Services;
+﻿using PetShop.Core.Entity;
+using PetShop.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,17 +21,30 @@ namespace PetShop
 
             Console.WriteLine("1. Show all pets");
 
+            if (Console.ReadLine().Contains("1")))
+                {
+                  printAllPets();
+                }
+            
 
-
+            
 
         }
 
 
+
         public void printAllPets() {
+            Console.WriteLine("Here is a list of pets n/");
+            foreach (var Pet in _petService.PetList())
+            { 
+                Console.WriteLine(Pet.ToString());
+            }
 
-            
+            Console.ReadLine();
 
-            Console.WriteLine("Here is a list of pets n/" );
+
+            StartUI();
+
 
         }
 

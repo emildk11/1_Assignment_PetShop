@@ -20,6 +20,8 @@ namespace PetShop
             var serviceProvider = serviceCollection.BuildServiceProvider();
             var Printer = serviceProvider.GetRequiredService<IPrinter>();
             Printer.StartUI();
+
+
         }
     }
 }
